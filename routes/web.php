@@ -58,3 +58,4 @@ Route::get('/menu','Connect@menu');
 Route::get('/ice','Connect@ice');
 Route::get('/hot','Connect@hot');
 Route::get('/frappe','Connect@frappe');
+Route::get('/frae','Connect@frappe');
