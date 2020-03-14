@@ -1,0 +1,92 @@
+body{
+	font-family: 'Josefin Slab', serif;
+	height: 100%;
+	width: 100%;
+}
+.navbar{
+
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+    font-size: .9rem;
+    letter-spacing: .1rem;
+    background: rgb(0, 0, 0,0.6)!important;
+}
+
+.navbar-brand img{
+    
+   height: 3rem;
+   padding-left: 10vh;
+}
+.navbar-nav li{
+    padding-right: .7rem;
+    
+}
+.navbar-dark .navbar-nav .nav-link.active, 
+.navbar-dark .navbar-nav .nav-link:hover {
+    color:#fff;
+}
+.navbar-dark .navbar-nav .nav-link{
+    color: #fff;
+    
+}
+.nav-link::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background:#fff ;
+    transition: width 0.3s;
+}
+.nav-link:hover::after{
+    width: 100%;
+    transition: width 0.3s;
+}
+#home{
+	color:#fff;
+	display: table;
+	height: 35rem;
+	position: relative;
+	width: 100%;
+    background-size: cover;
+    
+}
+.landing-text {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+.landing-text h1{
+	font-size: 500%;
+	font-weight: 700;
+}
+.landing-text h3{
+	font-size: 400%;
+	font-weight: 500;
+}
+.container{
+    padding-top: 4rem;
+}
+
+h2 ,h4 {
+    color: #4C4C4C;
+    word-spacing: 5px;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom:30px;
+    
+}
+
+footer{
+    background-color: #f0f0f0;
+    color: black;
+    padding-top: 2rem;
+}
+
+hr.light{
+    border-top: 1px solid #d5d5d5;
+    width: 75%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+
+}

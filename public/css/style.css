@@ -7,3 +7,8 @@
 #footer p{
     margin-bottom: 0px;
 }
+
+div,#form{
+    width: 300px;
+    background-color: red;
+}
